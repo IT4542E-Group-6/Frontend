@@ -1,3 +1,13 @@
+// todo: disabled button styles
+button {
+  &:disabled {
+    cursor: default;
+  }
+  &.disabled {
+    cursor: default;
+  }
+}
+
 // todo: brand button icon margin
 .btn-brand:not(:only-child) {
   .c-icon {
