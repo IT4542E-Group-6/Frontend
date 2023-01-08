@@ -1,84 +1,64 @@
 const Status = {
-  REQUEST_NEW: {
-    id: 0,
-    name: "New",
-  },
-  REQUEST_CONTRACT: {
-    id: 1,
-    name: "Contracted",
-  },
-  REQUEST_CANCELED: {
-    id: 2,
-    name: "Canceled",
-  },
-  DRIVER_PENDING: {
-    id: 0,
-    name: "Pending",
-  },
-  DRIVER_GOING: {
-    id: 1,
-    name: "Going",
-  },
-  DRIVER_DEACTIVE: {
-    id: 2,
-    name: "Deactive",
-  },
-  CONTRACT_NEW: {
-    id: 0,
-    name: "New",
-  },
-  CONTRACT_DRIVER_START: {
-    id: 1,
-    name: "Guest",
-  },
-  CONTRACT_DRIVER_GOING: {
-    id: 2,
-    name: "Going",
-  },
-  CONTRACT_DRIVER_FINISH: {
-    id: 3,
-    name: "Drop",
-  },
-  CONTRACT_DONE: {
-    id: 4,
-    name: "Done",
-  },
-  CONTRACT_CANCELED: {
-    id: 5,
-    name: "Canceled",
-  },
-  PAYMENT_DONE: {
-    id: 1,
-    name: "Done",
-  },
-  PAYMENT_NOT_DONE: {
-    id: 0,
-    name: "Not Done",
-  },
-  TRANSACTION_NEW: {
-    id: 0,
-    name: "New",
-  },
-  TRANSACTION_DONE: {
-    id: 1,
-    name: "Done",
-  },
-  TRANSACTION_ERROR: {
-    id: 2,
-    name: "Error",
-  },
-  INACTIVE: {
-    id: 0,
-    name: "Inactive",
-  },
-  ACTIVE: {
-    id: 1,
-    name: "Active",
-  },
-  BLOCK: {
-    id: 2,
-    name: "Block",
-  },
+  discount_status: [
+    {
+      id: 0,
+      name: "Active",
+      color: "green",
+      text: "Active",
+    },
+    {
+      id: 1,
+      name: "Inactive",
+      color: "red",
+      text: "Inactive",
+    },
+  ],
+  discount_type: [
+    {
+      id: 0,
+      name: "User Discount",
+    },
+    {
+      id: 1,
+      name: "Order discount ",
+    },
+  ],
+  amount_type: [
+    {
+      id: 0,
+      name: "Direct",
+    },
+    {
+      id: 1,
+      name: "Percentage",
+    },
+  ],
+  rank: [
+    {
+      id: 0,
+      name: "Bronze",
+      text: "Bronze",
+      color: "#b18f52",
+    },
+    {
+      id: 1,
+      name: "Silver",
+      text: "Silver",
+      color: "#D3D3D3",
+    },
+    {
+      id: 2,
+      name: "Gold",
+      text: "Gold",
+      color: "#FFD700",
+    },
+    {
+      id: 3,
+      name: "Diamond",
+      text: "Diamond",
+      color: "cyan",
+    },
+  ],
   products: [
     {
       id: 0,
@@ -103,6 +83,46 @@ const Status = {
       name: "Canceled",
       color: "volcano",
       text: "Canceled",
+    },
+  ],
+  pros: [
+    {
+      id: 0,
+      name: "In Stock",
+      color: "green",
+      text: "In stock",
+    },
+    {
+      id: 1,
+      name: "Out of Stock",
+      color: "yellow",
+      text: "Out of Stock",
+    },
+    {
+      id: 2,
+      name: "Sold Out",
+      color: "volcano",
+      text: "Sold Out",
+    },
+  ],
+  users: [
+    {
+      id: 0,
+      name: "New",
+      color: "lime",
+      text: "New",
+    },
+    {
+      id: 1,
+      name: "Active",
+      color: "green",
+      text: "Active",
+    },
+    {
+      id: 2,
+      name: "Block",
+      color: "red",
+      text: "Block",
     },
   ],
 };
