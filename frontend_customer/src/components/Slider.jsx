@@ -9,8 +9,8 @@ const Container = styled.div`
 	display: flex;
 	position: relative;
 	overflow: hidden;
-
-	@media (max-width: 768px) {
+	
+	@media (max-width: 768px){
 		display: none;
 	}
 `;
