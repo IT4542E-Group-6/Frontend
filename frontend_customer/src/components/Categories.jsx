@@ -38,18 +38,9 @@ const Categories = () => {
 				<TitleText>CATEGORIES</TitleText>
 			</Title>
 			<Container>
-				<Row gutter={[{ sm: 10, xl: 40 }, 40]} justify="center">
+				<Row gutter={[{sm: 10, xl: 40 }, 40]} justify='center'>
 					{categories.map((item, index) => (
-						<Col
-							xs={24}
-							sm={12}
-							xl={6}
-							key={index}
-							style={{
-								display: "flex",
-								justifyContent: "center",
-							}}
-						>
+						<Col xs={24} sm={12} xl={6} key={index} style={{display:'flex' , justifyContent:'center'}}>
 							<CategoryItem item={item} />
 						</Col>
 					))}
